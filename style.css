@@ -1,0 +1,262 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C4D7FF;
+    margin-bottom: 60px;
+}
+
+.menu, .menu3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.demenu, .demenu3 {
+    background-color: #87A2FF;
+    width: 100%;
+    padding: 10px 0; 
+    margin-bottom: 40px; /* Jarak antara menu dan konten di bawahnya */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lidesain, .lidesain3 {
+    list-style-type: none;
+    position: absolute;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.text-icon {
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.homelogo, .logo1, .logo2, .homelogo3, .logo3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+    width: 300px;
+    font-size: 30px;
+    margin-top: -250px; /* Mengurangi jarak vertikal */
+}
+
+.container11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 10px; /* Mengurangi jarak padding atas */
+}
+.grid-item4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px; /* Sesuaikan padding dalam item */
+    margin-bottom: 5px; /* Mengurangi jarak antar elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px; /* Mengurangi jarak antar elemen dalam grid */
+    margin-bottom: 30;
+}
+
+.grid-item, .grid-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px; /* Sesuaikan padding dalam item */
+    margin-bottom: 5px; /* Mengurangi jarak antar elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px; /* Mengurangi jarak antar elemen dalam grid */
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px; /* Sesuaikan padding dalam item */
+    margin-bottom: 5px; /* Mengurangi jarak antar elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px; /* Mengurangi jarak antar elemen dalam grid */
+    margin-top: 150;
+}
+
+.grid-item2:nth-child(3) {
+    margin-top: 1;
+}
+
+.calon {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-content, .main-content1, .main-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: justify;
+    margin-top: -200;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    margin-bottom: 180;
+}
+
+.grid-container4 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    margin-top: 180;
+}
+
+.grid-container1, .grid-container2 {
+    display: grid;
+    gap: 10px; /* Mengurangi jarak antar kolom grid */
+    width: 100%;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr; /* Dua kolom layout */
+}
+
+.grid-item2:nth-child(3) {
+    grid-column: span 2; /* Elemen ketiga melebar ke 2 kolom */
+}
+
+.Text-Profile {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.data-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.ketos1 {
+    margin-right: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.this-footer {
+    color: #FBCDA1;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+.h1-footer {
+    font-size: 18px; 
+    color: #87A2FF;
+    background-color: #F5F5F7;
+    padding: 10px 0;
+}
+
+/* Media Query untuk menyesuaikan tampilan di Android atau perangkat dengan layar kecil */
+@media (max-width: 768px) {
+    .text-icon {
+        font-size: 16px;
+    }
+
+    .homelogo, .logo1, .logo2, .homelogo3, .logo3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Text-Profile {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .data-title {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .this-footer {
+        font-size: 16px;
+    }
+
+    .grid-container, .grid-container1, .grid-container2 {
+        grid-template-columns: 1fr; /* Menjadi 1 kolom pada layar kecil */
+    }
+
+    .grid-item2:nth-child(3) {
+        grid-column: auto;
+    }
+}
